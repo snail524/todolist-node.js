@@ -122,4 +122,5 @@ const requestListener = (req , res) =>{
 }
 
 const server = http.createServer(requestListener);
-server.listen(3005);
+// server.listen(3005);
+server.listen( process.env.PORT|| 3005); // 設定 port 沒設定 3005

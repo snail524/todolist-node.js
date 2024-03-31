@@ -1,5 +1,19 @@
 {
   "dependencies": {
     "uuid": "^9.0.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "todolist",
+  "version": "1.0.0",
+  "main": "errorHandle.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": "",
+
+  "engines": {
+    "node": "16"
   }
 }
