@@ -4,7 +4,7 @@ const errHandle = require('./errorHandle');
 const { todo } = require('node:test');
 
 
-const todos = ;
+const todos = [];
 
 const requestListener = (req , res) =>{
   //json / cors 處理
